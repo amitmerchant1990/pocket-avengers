@@ -45,7 +45,7 @@ class AppDrawer extends Component {
                     <Link to={`/about`} style={styles.linkPrefs}>
                         <MenuItem>About</MenuItem>
                     </Link>
-                    <a href="https://www.github.com" style={styles.linkPrefs}>
+                    <a href="https://www.github.com/amitmerchant1990/pocket-avengers" style={styles.linkPrefs}>
                         <MenuItem>GitHub</MenuItem>
                     </a>
                 </Drawer>

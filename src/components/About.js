@@ -46,7 +46,7 @@ class About extends Component {
                         <div style={styles.appTitle}>Pocket Avengers</div>
                         <div style={styles.sectionPadding}>A central place to learn about Marvel's Avengers</div>
                         <div style={styles.sectionPadding}>Made with ❤ by <a href="https://www.amitmerchant.com" target="_blank">Amit Merchant</a></div>
-                        <div style={styles.sectionPadding}><a href="https://www.github.com">GitHub</a></div>
+                        <div style={styles.sectionPadding}><a href="https://www.github.com/amitmerchant1990/pocket-avengers">GitHub</a></div>
                         <div style={styles.footer}><i>*Avengers and it's logo are registered properties of <a href="https://www.marvel.com">Marvel</a></i></div>
                     </div>
                 </CardText>
