@@ -2,7 +2,7 @@
   "name": "pocket-avengers",
   "version": "0.1.0",
   "author": "Amit Merchant <bullredeyes@gmail.com>",
-  "homepage": "https://www.amitmerchant.com/pocket-avengers/",
+  "homepage": "https://www.amitmerchant.com",
   "private": true,
   "dependencies": {
     "material-ui": "^0.20.0",
