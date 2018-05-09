@@ -44,7 +44,7 @@ class AvengerDetail extends Component {
         {filterAvengers.map((tile) => (
         <Card>
             <CardMedia>
-                <img src={('../'+tile.img)} alt="" />
+                <img src={('./'+tile.img)} alt="" />
             </CardMedia>
             <CardTitle title={tile.title} style={styles.cardTitle} />
             <CardText>
