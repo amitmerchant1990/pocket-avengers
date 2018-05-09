@@ -26,7 +26,7 @@ class AppDrawer extends Component {
     render() {
         return (
             <AppBar
-            title={<img src="/images/logo.png" width="130" height="70" />}
+            title={<img src="./images/logo.png" width="130" height="70" />}
             iconClassNameRight="muidocs-icon-navigation-expand-more"
             style={{textAlign: 'center'}}
             onLeftIconButtonClick = { this.handleOpen.bind(this) }
