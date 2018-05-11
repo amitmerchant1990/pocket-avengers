@@ -4,12 +4,6 @@ import { withRouter, Link } from 'react-router-dom';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 
-const styles = {
-  linkPrefs: {
-      textDecoration: 'none'
-  }
-};
-
 class AppDrawer extends Component {
     constructor(props){
         super(props);
@@ -28,7 +22,7 @@ class AppDrawer extends Component {
             <AppBar
             title={<img src="./images/logo.png" width="130" height="70" />}
             iconClassNameRight="muidocs-icon-navigation-expand-more"
-            style={{textAlign: 'center'}}
+            className="appBar"
             onLeftIconButtonClick = { this.handleOpen.bind(this) }
             position="fixed"
             >
@@ -37,15 +31,15 @@ class AppDrawer extends Component {
                 width={200}
                 open={this.state.open}
                 onRequestChange={(open) => this.setState({open})}
-                style={{textAlign: 'left'}}
+                className="appDrawer"
                 >
-                    <Link to={`/`} style={styles.linkPrefs}>
+                    <Link to={`/`} className="linkPrefs">
                         <MenuItem>Home</MenuItem>
                     </Link>
-                    <Link to={`/about`} style={styles.linkPrefs}>
+                    <Link to={`/about`} className="linkPrefs">
                         <MenuItem>About</MenuItem>
                     </Link>
-                    <a href="https://www.github.com/amitmerchant1990/pocket-avengers" style={styles.linkPrefs}>
+                    <a href="https://www.github.com/amitmerchant1990/pocket-avengers" className="linkPrefs">
                         <MenuItem>GitHub</MenuItem>
                     </a>
                 </Drawer>

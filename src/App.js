@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import AvengerDetail from './components/AvengerDetail';
 import About from './components/About';
+import './App.css';
 
 const App = () => {
   return (

@@ -3,40 +3,18 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {GridList, GridTile} from 'material-ui/GridList';
 import avengersData from '../Avengers';
 import AppDrawer from './AppDrawer';
-import { BrowserRouter, Redirect, withRouter, Link } from 'react-router-dom';
-
-const styles = {
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    overflowY: 'hidden',
-  },
-  gridList: {
-    width: 'auto',
-    height: 'auto',
-    overflowY: 'hidden',
-  }
-};
+import { withRouter, Link } from 'react-router-dom';
 
 class Homepage extends Component {
-  constructor(props){
-    super(props);
-
-    this.state = {
-      redirect: false,
-      id: null,
-      open: false
-    }
-  }
 
   render() {
     return (
       <MuiThemeProvider>
         <AppDrawer/>
-        <div style={styles.root}>
+        <div className="homepageRoot">
           <GridList
             cellHeight={180}
-            style={styles.gridList}
+            className="gridList"
           >
             {avengersData.map((tile) => (
               <Link to={`avenger-detail/${tile.id}`}>

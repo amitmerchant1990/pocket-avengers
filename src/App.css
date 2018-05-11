@@ -1,0 +1,72 @@
+.linkPrefs{
+    text-decoration: none;
+}
+
+.appBar{
+    text-align: center;
+}
+
+.appDrawer{
+    text-align: left;
+}
+
+.cardStyle{
+    text-align: center;
+}
+
+.aboutAppTitle{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.aboutSectionPadding{
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.aboutFooter{
+    padding-top: 40px;
+}
+
+.aboutRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/cover.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.avengersDetailRoot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.avengersDetailSection{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.avengersDetailFooter{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.avengersDetailTitle{
+    text-align: center;
+    font-weight: bold;
+}
+
+.homepageRoot{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden,
+}
+
+.gridList{
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+}
