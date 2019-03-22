@@ -3,7 +3,7 @@ Pocket Avengers
 
 > A central place to learn about Marvel's Avengers 
 
-It's a fun little [progressive web app](https://developers.google.com/web/progressive-web-apps/) which is built on top of [React.js](https://reactjs.org/) and [Material UI](https://www.material-ui.com/).
+It's a fun little [progressive web app](https://developers.google.com/web/progressive-web-apps/) which is built on top of [React.js](https://reactjs.org/) and [Material UI](https://www.material-ui.com/) (best works on mobile).
 
 ## Run
 
