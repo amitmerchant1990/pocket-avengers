@@ -1,6 +1,8 @@
 Pocket Avengers
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amitmerchant1990/pocket-avengers.svg)](https://greenkeeper.io/)
+
 > A central place to learn about Marvel's Avengers 
 
 It's a fun little [progressive web app](https://developers.google.com/web/progressive-web-apps/) which is built on top of [React.js](https://reactjs.org/) and [Material UI](https://www.material-ui.com/) (best works on mobile).
